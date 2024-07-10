@@ -4,4 +4,6 @@ class PrimeFactor:
         factors = []
         if number == 2:
             factors.append(2)
+        if number == 3:
+            factors.append(3)
         return factors
