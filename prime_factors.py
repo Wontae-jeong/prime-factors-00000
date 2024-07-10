@@ -4,7 +4,7 @@ class PrimeFactor:
         factors = []
         if number > 1:
             divisor = 2
-            if number == 4 or number == 6 or number == 9:
+            if number == 4 or number == 6 or number == 9 or number == 12:
                 divisor = 2
                 while number > 1:
                     while number % divisor == 0:
